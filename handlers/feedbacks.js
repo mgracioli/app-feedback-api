@@ -48,9 +48,6 @@ function CreateFeedbackHandler (db) {
       return
     }
 
-    // @TODO: for this, I don't validate if apikey is valid.
-    // Just for study purposes.
-
     const feedback = {
       text,
       fingerprint,
